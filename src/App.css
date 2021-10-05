@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.everyImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.everyImg img,
+h3 {
+  width: 200px;
+  height: 200px;
+
+  margin: 10px;
+}
+.oneDog {
+  display: flex;
+  justify-content: center;
+}
